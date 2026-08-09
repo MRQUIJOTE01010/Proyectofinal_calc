@@ -1,0 +1,230 @@
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Times New Roman', Times, serif
+}
+
+body{
+
+    background:linear-gradient(135deg,#05173f,#2a578f);
+    background-image:linear-gradient( rgb(0, 0, 0,0.3), rgba(0,0,10,20)),
+    url("../img/antenaelectrica_fondo.jpg");
+    background-size: cover;
+    
+    height: 100%;
+    width: 100%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding:20px;
+
+}
+
+
+.contenedor{
+
+    background:white;
+    width:100%;
+    max-width:650px;
+    padding:30px;
+    border-radius:15px;
+    box-shadow:0px 10px 25px rgba(0,0,0,.3);
+    background-image: 
+    url("../img/antena_anocheser.jpg");
+
+}
+
+
+h1{
+
+    text-align:center;
+    text-transform:uppercase;
+    color:#c0c4cc;
+    margin-bottom:10px;
+
+}
+
+.descripcion{
+
+    text-align:center;
+    color:#f1f902;
+    margin-bottom:25px;
+
+}
+
+.formulario{
+    display:flex;
+    flex-direction:column;
+
+}
+
+label{
+    margin-top:15px;
+    margin-bottom:5px;
+    font-weight:bold;
+    color: #4cf305;
+
+}
+
+input{
+    padding:12px;
+    border:1px solid #ccc;
+    border-radius:8px;
+    font-size:16px;
+    outline:none;
+    transition:.3s;
+
+}
+
+input:focus{
+    border-color:#2563eb;
+    box-shadow:0 0 8px rgba(37,99,235,.3);
+
+}
+
+
+
+.botones{
+
+    display:flex;
+    gap:10px;
+    margin-top:25px;
+
+}
+
+.botones button{
+
+    flex:1;
+    padding:12px;
+    border:none;
+    border-radius:8px;
+    cursor:pointer;
+    font-size:16px;
+    transition:.3s;
+
+}
+
+#calcular{
+    background:#2563eb;
+    color:white;
+}
+
+#calcular:hover{
+    background:#1d4ed8;
+
+}
+
+#limpiar{
+
+    background:#ef4444;
+    color:white;
+
+}
+
+#limpiar:hover{
+
+    background:#dc2626;
+
+}
+
+.resultado{
+
+    margin-top:30px;
+    color: white;
+    background:#131659;
+    border-left:6px solid #2563eb;
+    padding:20px;
+    border-radius:10px;
+
+}
+
+.resultado h2{
+
+    color:#2563eb;
+    margin-bottom:15px;
+
+}
+
+.resultado p{
+
+    margin:10px 0;
+    font-size:17px;
+
+}
+
+
+.acciones{
+
+    margin-top:20px;
+
+}
+
+.acciones button{
+
+    width:100%;
+    padding:12px;
+    border:none;
+    border-radius:8px;
+    background:#218516;
+    color:white;
+    cursor:pointer;
+    font-size:16px;
+    transition:.3s;
+
+}
+
+.acciones button:hover{
+
+    background:#059669;
+
+}
+
+.bajo{
+
+    color:green;
+    font-weight:bold;
+
+}
+
+.medio{
+
+    color:orange;
+    font-weight:bold;
+
+}
+
+.alto{
+
+    color:red;
+    font-weight:bold;
+
+}
+
+footer{
+
+    text-align:center;
+    margin-top:25px;
+    color:#666;
+    font-size:14px;
+
+}
+
+
+@media(max-width:600px){
+
+.botones{
+
+    flex-direction:column;
+
+}
+
+.contenedor{
+
+    padding:20px;
+
+}
+
+}
+

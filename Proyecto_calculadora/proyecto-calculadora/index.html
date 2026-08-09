@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Sistema de Cálculo</title>
+        
+        <link rel="stylesheet" href="./src/style.css">
+    </head>
+
+
+    <body>
+        <header class="encabezado1">
+            <a class="encabezado"   href="index.html"> Inicio</a>
+            <a class="encabezado"   href="calculadora_ohm.html"> Calculadora ohm</a>
+            <a class="encabezado"   href="cal_consumo_electrico.html"> Consumo</a>
+   
+        </header>
+
+        <main class="main">
+            <section  class="fondoinicio">
+            <h1><span class="span">SMART </span> <br> CALCULATOR</h1>
+            <br>
+            <h2 >  Sistema de Cálculo </h2>
+            
+            <p class="Parrafoprincipal">Aplicación web enfocada en el cálculo del consumo de energía eléctrica y la estimación <br>
+                 del costo de operación de equipos eléctricos. <br> 
+                 Implementa una interfaz moderna y cálculos automáticos
+                utilizando tecnologías web como HTML5, CSS3 y JavaScript.<br>
+            </p>
+            <br>
+            <br>
+            <br>
+            </section>
+            <center>
+            <button > <a href="cal_consumo_electrico.html"class="button" > Calcular consumo electrico</a></button><br>
+            <button> <a href="calculadora_ohm.html"class="button" >Calculadora Ley de Ohm</a></button>
+
+            </center>
+           
+
+         <footer>
+         <p>&copy; <span id="year"></span> Todos los derechos reservados.</p>
+        </footer>
+
+<script>
+  // No es debido aplicar Js aqui, pero esto es para la fecha 
+  document.getElementById("year").textContent = new Date().getFullYear();
+</script>
+         
+        </main>
+    </body>
+</html>
+
